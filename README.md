@@ -17,7 +17,7 @@
 ![GitHub](https://img.shields.io/badge/-GitHub-545454?style=flat&logo=github)
 
 # Objective: 
-Conduct a search on DuckDuckGo for the latest Bitcoin news.
+Make transfers on the parabank website
 
 ## Prerequirements:
 
