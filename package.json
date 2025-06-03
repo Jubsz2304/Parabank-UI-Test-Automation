@@ -1,0 +1,21 @@
+{
+  "name": "desafio_serasa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "test": "cypress run",
+  "allure:generate": "powershell -ExecutionPolicy Bypass -Command \"allure generate allure-results --clean -o allure-report\"",
+  "allure:open": "powershell -ExecutionPolicy Bypass -Command \"allure open allure-report\"",
+  "test:allure": "npm run test && npm run allure:generate && npm run allure:open"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.41.2",
+    "allure-commandline": "^2.34.0",
+    "cypress": "^14.4.0"
+  }
+}
